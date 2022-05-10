@@ -8,3 +8,5 @@
 - text unescape 출력 : `th:utext=${...}`
 - 컨텐츠 내 unescape 직접 출력 : `[(${...})]`
 - 태그 내 인라인 타임리프 해석 off : `th:inline="none"`
+- Object, List, Map 타입 SpringEL 표현식
+<img width="311" alt="image" src="https://user-images.githubusercontent.com/71416677/167582875-baa75f26-fe40-47ef-9d6d-b5b8523aea2d.png">
