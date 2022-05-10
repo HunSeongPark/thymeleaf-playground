@@ -17,3 +17,6 @@
 - link (query parameter) : `th:href="@{/hello(param=${...})}"`
 - link (path variable) : `th:href="@{/hello/{path}(path=${...})}"`
 - link (query parameter + path variable) : `th:href="@{/hello/{path}(path=${...}, param=${...})}"`
+- Literal : `th:text="'hello world!'"` `th:text="'hello ' + 'world!'"` `th:text="'hello ' + ${data}"`
+  - Literal의 경우 공백 없는 문자열을 제외하고는 ' '를 붙여야 한다.
+  - Literal 대체 문법(|..|)을 통해 템플릿처럼 편리하게 사용 가능 `th:text="|hello ${data}|"`
