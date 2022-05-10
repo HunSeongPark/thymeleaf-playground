@@ -21,5 +21,10 @@
     <li>${map['userA']['username']} = <span th:text="${map['userA']['username']}"></span></li>
     <li>${map['userA'].getUsername()} = <span th:text="${map['userA'].getUsername()}"></span></li>
 </ul>
+
+<h1>지역변수 - (th:with)</h1>
+<div th:with="first=${list[0]}">
+    <p>지역변수 first의 username = <span th:text="${first.username}"></span></p>
+</div>
 </body>
 </html>
