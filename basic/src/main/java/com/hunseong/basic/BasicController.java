@@ -1,0 +1,20 @@
+package com.hunseong.basic;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * Created by Hunseong on 2022/05/10
+ */
+@Controller
+@RequestMapping("/basic")
+public class BasicController {
+
+    @GetMapping("/text-basic")
+    public String textBasic(Model model) {
+        model.addAttribute("data", "Hello~!");
+        return "basic/text-basic";
+    }
+}
