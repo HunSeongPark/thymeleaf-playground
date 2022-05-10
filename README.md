@@ -3,7 +3,7 @@
 
 ## 정리
 - thymeleaf 사용 : `<html xmlns:th="http://www.thymeleaf.org">`
-- text 출력 : `<span th:text=${data}></span>`
-- 컨텐츠 내 직접 출력 : `<li>[[${data}]]</li>`
-- text unescape 출력 : `<span th:utext=${data}></span>`
-- 컨텐츠 내 unescape 직접 출력 : `<li>[(${data})]</li>`
+- text 출력 : `th:text=${...}`
+- 컨텐츠 내 직접 출력 : `[[${...}]]`
+- text unescape 출력 : `th:utext=${...}`
+- 컨텐츠 내 unescape 직접 출력 : `[(${...})]`
