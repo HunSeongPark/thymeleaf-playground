@@ -35,3 +35,4 @@
 - class 속성 앞에 이어붙이기 : `th:attrprepend="class='add'"`
 - class 속성 추가 : `th:classappend="add"`
 - checked 처리 : `th:checked="true|false"`
+- 반복 : `th:each="user : ${users}"`
