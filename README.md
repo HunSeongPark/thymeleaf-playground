@@ -31,3 +31,7 @@
   - (10 % 2 == 0) ? '짝수' : '홀수' : `th:text="(10 % 2 == 0) ? '짝수' : '홀수'"`
 - Operation (Elvis 연산자 ?:) : `th:text="${data} ?: '데이터가 없습니다.'"`
 - Operation (No-Operation _ ) : `th:text="${data} ?: _"`
+- class 속성 뒤에 이어붙이기 : `th:attrappend="class='add'"`
+- class 속성 앞에 이어붙이기 : `th:attrprepend="class='add'"`
+- class 속성 추가 : `th:classappend="add"`
+- checked 처리 : `th:checked="true|false"`
