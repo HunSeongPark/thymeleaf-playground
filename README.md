@@ -13,3 +13,7 @@
 - 지역변수 사용 : `th:with="first=${user}"`
 - Parameter 편의객체 : `th:text="${param.paramName}"`
 - Session 편의객체 : `th:text="${session.dataName}"`
+- link : `th:href="@{/hello}"`
+- link (query parameter) : `th:href="@{/hello(param=${...})}"`
+- link (path variable) : `th:href="@{/hello/{path}(path=${...})}"`
+- link (query parameter + path variable) : `th:href="@{/hello/{path}(path=${...}, param=${...})}"`
