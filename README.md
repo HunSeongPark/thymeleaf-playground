@@ -36,3 +36,5 @@
 - class 속성 추가 : `th:classappend="add"`
 - checked 처리 : `th:checked="true|false"`
 - 반복 : `th:each="user : ${users}"`
+- 조건문(if, unless) : `th:if="${user.age >= 10}"` `th:unless="${user.age lt 10}"`
+- 조건문(switch-case) : `th:switch="${user.age}"` `th:case="10"` `th:case="*"`(default)
