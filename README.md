@@ -38,3 +38,4 @@
 - 반복 : `th:each="user : ${users}"`
 - 조건문(if, unless) : `th:if="${user.age >= 10}"` `th:unless="${user.age lt 10}"`
 - 조건문(switch-case) : `th:switch="${user.age}"` `th:case="10"` `th:case="*"`(default)
+- block : `<th:block> </th:block>`, html 태그 내에 th를 정의하기 힘든 경우 block을 생성하여 thymeleaf 기능을 사용
